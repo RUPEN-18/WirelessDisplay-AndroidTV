@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wirelessdisplay.receiver"
+4    android:versionCode="3"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:5:5-76
+13-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:5:22-73
+14
+15    <uses-feature
+15-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:7:5-87
+16        android:name="android.software.leanback"
+16-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:7:19-59
+17        android:required="false" />
+17-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:7:60-84
+18    <uses-feature
+18-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:8:5-90
+19        android:name="android.hardware.touchscreen"
+19-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:8:19-62
+20        android:required="false" />
+20-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:8:63-87
+21
+22    <permission
+22-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.wirelessdisplay.receiver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.wirelessdisplay.receiver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:10:5-26:19
+29        android:allowBackup="true"
+29-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:11:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.15.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:label="Wireless Display Receiver"
+33-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:12:9-50
+34        android:theme="@style/AppTheme"
+34-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:13:9-40
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:14:9-44
+36        <activity
+36-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:15:9-25:20
+37            android:name="com.wirelessdisplay.receiver.MainActivity"
+37-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:16:13-41
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+38-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:17:13-83
+39            android:exported="true"
+39-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:18:13-36
+40            android:screenOrientation="landscape" >
+40-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:19:13-50
+41            <intent-filter>
+41-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:20:13-24:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:21:17-69
+42-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:21:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:22:17-77
+44-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:22:27-74
+45                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+45-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:23:17-86
+45-->C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\AndroidManifest.xml:23:27-83
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.wirelessdisplay.receiver.androidx-startup"
+51-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+54-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+55                android:value="androidx.startup" />
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+56        </provider>
+57
+58        <receiver
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+60            android:directBootAware="false"
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+61            android:enabled="true"
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+62            android:exported="true"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+63            android:permission="android.permission.DUMP" >
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+64            <intent-filter>
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+66            </intent-filter>
+67            <intent-filter>
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+68                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+69            </intent-filter>
+70            <intent-filter>
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+71                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+72            </intent-filter>
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+74                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+75            </intent-filter>
+76        </receiver>
+77    </application>
+78
+79</manifest>

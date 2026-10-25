@@ -1,0 +1,15 @@
+com.wirelessdisplay.receiver.app-core-runtime-2.2.0-0 C:\Users\rupen\.gradle\caches\9.3.0\transforms\093c32c3573f8c3de5b1f4b34cf9c560\workspace\transformed\core-runtime-2.2.0\res
+com.wirelessdisplay.receiver.app-annotation-experimental-1.4.1-1 C:\Users\rupen\.gradle\caches\9.3.0\transforms\0957bf4d44ee0065564afb56410545b5\workspace\transformed\annotation-experimental-1.4.1\res
+com.wirelessdisplay.receiver.app-core-1.15.0-2 C:\Users\rupen\.gradle\caches\9.3.0\transforms\48d00883ea5611417f66f6256ff52e51\workspace\transformed\core-1.15.0\res
+com.wirelessdisplay.receiver.app-core-ktx-1.15.0-3 C:\Users\rupen\.gradle\caches\9.3.0\transforms\5860576a46fac2b1eae8ed05599210bd\workspace\transformed\core-ktx-1.15.0\res
+com.wirelessdisplay.receiver.app-startup-runtime-1.1.1-4 C:\Users\rupen\.gradle\caches\9.3.0\transforms\74eda39f22a500b06ec2522981b51c2b\workspace\transformed\startup-runtime-1.1.1\res
+com.wirelessdisplay.receiver.app-lifecycle-runtime-2.6.2-5 C:\Users\rupen\.gradle\caches\9.3.0\transforms\8671b6cd8c03d3f7959052dcc5f63a31\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.wirelessdisplay.receiver.app-profileinstaller-1.3.0-6 C:\Users\rupen\.gradle\caches\9.3.0\transforms\9e476a72ecb81d126921d15d585a6476\workspace\transformed\profileinstaller-1.3.0\res
+com.wirelessdisplay.receiver.app-tracing-1.2.0-7 C:\Users\rupen\.gradle\caches\9.3.0\transforms\d73066beb519089c80eeccaac75c8cb1\workspace\transformed\tracing-1.2.0\res
+com.wirelessdisplay.receiver.app-pngs-8 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\build\generated\res\pngs\debug
+com.wirelessdisplay.receiver.app-resValues-9 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\build\generated\res\resValues\debug
+com.wirelessdisplay.receiver.app-packageDebugResources-10 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.wirelessdisplay.receiver.app-packageDebugResources-11 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.wirelessdisplay.receiver.app-debug-12 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.wirelessdisplay.receiver.app-debug-13 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\debug\res
+com.wirelessdisplay.receiver.app-main-14 C:\Users\rupen\AndroidStudioProjects\AndroidTVReceiver_FINAL_FIXED\app\src\main\res

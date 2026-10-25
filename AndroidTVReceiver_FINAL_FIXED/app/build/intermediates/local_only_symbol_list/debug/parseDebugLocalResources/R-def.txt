@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+drawable lt_logo_full
+drawable lt_symbol
+style AppTheme

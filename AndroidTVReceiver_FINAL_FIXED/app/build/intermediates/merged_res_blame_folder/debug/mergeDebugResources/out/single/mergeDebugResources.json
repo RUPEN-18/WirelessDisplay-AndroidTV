@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.wirelessdisplay.receiver.app-debug-12:/drawable-nodpi_lt_symbol.png.flat",
+        "source": "com.wirelessdisplay.receiver.app-main-14:/drawable-nodpi/lt_symbol.png"
+    },
+    {
+        "merged": "com.wirelessdisplay.receiver.app-debug-12:/drawable-nodpi_lt_logo_full.png.flat",
+        "source": "com.wirelessdisplay.receiver.app-main-14:/drawable-nodpi/lt_logo_full.png"
+    }
+]
